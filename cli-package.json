@@ -1,0 +1,25 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "command line interface",
+    "bin": {
+        "vistopia": "${your script path}"
+    },
+    "files": ["bin", "dist"],
+    "scripts": {
+        "test": "jest",
+        "prepublishOnly": "npm run build",
+        "build": "${your build scrcipt}"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/CrazyStoneJy/vistopia.git"
+    },
+    "keywords": ["keywords"],
+    "author": "crazystone",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CrazyStoneJy/vistopia/issues"
+    },
+    "homepage": "https://github.com/CrazyStoneJy/vistopia#readme"
+}
